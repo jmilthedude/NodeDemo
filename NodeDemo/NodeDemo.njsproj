@@ -31,6 +31,10 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="app.js" />
+    <Content Include="async-demo\index.js" />
+    <Content Include="async-demo\package.json" />
+    <Content Include="async-demo\promise-api.js" />
+    <Content Include="async-demo\promise.js" />
     <Content Include="express-demo\.env" />
     <Content Include="express-demo\config\custom-environment-variables.json" />
     <Content Include="express-demo\config\default.json" />
@@ -45,6 +49,7 @@
     <Content Include="logger.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="mongo-demo\index.js" />
     <Content Include="npm-demo\index.js">
       <SubType>Code</SubType>
     </Content>
@@ -1237,6 +1242,8 @@
     <Folder Include="express-demo\config\" />
     <Folder Include="express-demo\middleware\" />
     <Folder Include="express-demo\routes\" />
+    <Folder Include="async-demo\" />
+    <Folder Include="mongo-demo\" />
     <Folder Include="npm-demo\" />
     <Folder Include="npm-demo\node_modules\" />
     <Folder Include="npm-demo\node_modules\%40types\" />
